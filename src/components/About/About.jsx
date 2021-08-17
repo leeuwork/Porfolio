@@ -5,28 +5,14 @@ function About() {
     const FadeUp = batch(Fade(), Move(), Sticky(), ZoomIn());
     return (
         <div>
-            <ScrollPage page={2}>
-                <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-                    <span style={{ fontSize: "3em" }}>a little bit about  me</span>
-                </Animator>
-            </ScrollPage>
 
-            <ScrollPage page={3}>
-                <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-                    <span style={{ fontSize: "3em" }} id="software-text">
-                        software engineer | full stack developer
-                        </span>
-                </Animator>
-            </ScrollPage>
-
-
-            <ScrollPage page={4}>
+            {/* <ScrollPage page={1}>
                 <Animator animation={FadeUp}>
                     <span style={{ fontSize: "3em" }}>new york city based but open to relocate</span>
                 </Animator>
             </ScrollPage>
 
-            <ScrollPage page={5}>
+            <ScrollPage page={2}>
                 <Animator animation={FadeUp}>
                     <span style={{ fontSize: "3em" }}>
                         As a software engineer, I’m eager to build products
@@ -34,12 +20,13 @@ function About() {
                         on the world.
                         </span>
                 </Animator>
-            </ScrollPage>
+            </ScrollPage> */}
 
-            <ScrollPage page={6}>
+            <ScrollPage page={3}>
                 <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-                    <div className="about-container" style={{ fontSize: "3em" }}  >
-                        <div className="about-me-left">
+                    <div className="about-container"  >
+                        <h3>About</h3>
+                        {/* <div className="about-me-left">
                             <img src="https://i.ibb.co/VHmffgR/personwithnote.png" />
                         </div>
                         <div className="about-me-right">
@@ -57,7 +44,7 @@ function About() {
                             that I can enjoy. I completed some
                             courses on youtube but it wasn’t enough for me. I started researching schools where I could go to learn coding. I discovered the General Assembly school and it was honestly the best decision in my life.
                                     </p>
-                        </div>
+                        </div> */}
                     </div>
                 </Animator>
             </ScrollPage>

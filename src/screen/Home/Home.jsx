@@ -21,27 +21,26 @@ function Home() {
 
 
     return (
-        <div className="fontSize">
-            <PageProgress color={'orange'} height={5} />
-            <div ref={top}className="nav-bar">
+        <div className="main-container">
+            {/* <PageProgress color={'white'} height={10} /> */}
+            <div ref={top} className="nav-bar">
                 <Link to="/resume"> <h3>Resume</h3></Link>
                 <a onClick={handleContact}><h3>Contact</h3></a>
             </div>
             <ScrollContainer>
                 <ScrollPage page={0}>
                     <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-                        <span style={{ fontSize: "3em" }}>
-                            <div className="whoami-text">
-                                <p>whoami?</p>
-                                <img src="https://static.thenounproject.com/png/54414-200.png" />
+                        <div className="top">
+                            <h1>I AM ASLAN SHAKEN</h1>
+                            <hr></hr>
+                            <p>an engineer, a creative, an innovator, a leader</p>
+                            <div>
+                                <a href="https://github.com/aslanshaken" target="_blank"><img className="link-img" src="https://image.flaticon.com/icons/png/512/25/25231.png" /></a>
+                                <a href="https://www.linkedin.com/in/aslanshaken/" target="_blank"><img className="link-img" src="https://library.kissclipart.com/20180907/ehe/kissclipart-linkedin-icon-for-resume-clipart-social-media-link-79f9bc808e514401.jpg" /></a>
+                                <a href="https://www.instagram.com/a.shaken33/" target="_blank" ><img className="link-img" src="https://www.pngfind.com/pngs/m/2-23339_black-and-white-instagram-logo-instagram-logo-2018.png" /></a>
                             </div>
-                        </span>
-                    </Animator>
-                </ScrollPage>
-
-                <ScrollPage page={1}>
-                    <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-                        <span style={{ fontSize: "3em" }}>i am aslan shaken</span>
+                            <img className="scroll-down" src="https://static.thenounproject.com/png/54414-200.png" />
+                        </div>
                     </Animator>
                 </ScrollPage>
 
@@ -55,24 +54,13 @@ function Home() {
                     </Animator>
                 </ScrollPage>
 
-                {/* <ScrollPage page={14}>
-                    <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-                        <div ref={contactCall} className="contact-container" >
-                            <img src={Photo} />
-                            <h2>Email: aslanshaken@gmail.com</h2>
-                            <a href="https://github.com/leeuwork"><img className="link-img" src="https://image.flaticon.com/icons/png/512/25/25231.png" /></a>
-                            <a href="https://www.linkedin.com/in/aslanshaken/"><img className="link-img" src="https://library.kissclipart.com/20180907/ehe/kissclipart-linkedin-icon-for-resume-clipart-social-media-link-79f9bc808e514401.jpg" /></a>
-                            <a href="#"><img className="link-img" src="https://www.pngfind.com/pngs/m/2-23339_black-and-white-instagram-logo-instagram-logo-2018.png" /></a>
-                        </div>
-                    </Animator>
-                </ScrollPage> */}
-
             </ScrollContainer >
 
             <Contact
                 contactCall={contactCall}
                 handleButton={handleButton}
             />
+
         </div>
     )
 }
