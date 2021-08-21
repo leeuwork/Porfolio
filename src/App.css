@@ -1,3 +1,81 @@
-.app{
-  font-family: 'Open Sans Condensed', sans-serif;
+.main-container {
+}
+
+.first-container {
+  margin: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-size:150%;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+@keyframes shake {
+  50% {
+    transform: translate(0px);
+  }
+
+  50% {
+    transform: translate(0px, 50px);
+  }
+}
+
+.scroll-down {
+  height: 35px;
+  animation: shake 2.4s;
+  animation-iteration-count: infinite;
+  margin: 20px;
+}
+
+/* SECOND */
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.about {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.ab-left-right {
+  display: flex;
+}
+
+.ab-left {
+  width: 50%;
+}
+
+.ab-right {
+width: 50%;
+}
+
+.ab-right-header {
+  color: #606060;
+  font-size: 1em;
+  line-height: 24px;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-decoration: none solid rgb(96, 96, 96);
+}
+
+.ab-right-h3{
+  color: gray;
+}
+
+.ab-ol-left-right{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+
 }
