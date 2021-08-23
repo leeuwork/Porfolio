@@ -162,8 +162,8 @@
 .forth-middle {
   padding: 0px 10px 0px 10px;
   color: #606060;
-  line-height: 24px;
-  letter-spacing: 1.5px;
+  line-height: 18px;
+  letter-spacing: 1.2px;
 }
 
 /* FIFTH */
@@ -176,7 +176,14 @@
 @media only screen and (max-width: 1650px) {
   /* Second */
   .second-footer {
-    font-size: smaller;
+    font-size: 12px !important;
+  }
+
+   /* FORTH */
+
+
+  .forth-project-text {
+    font-size: 9px !important;
   }
 }
 
@@ -320,14 +327,14 @@
   }
 
   .forth-project-box a {
-    line-height: 15px;
+    line-height: 10px;
     letter-spacing: 1px;
   }
 
   .forth-project-text {
     width: 300px;
     height: 150px;
-    font-size: 5px !important;
+    font-size: 4px !important;
   }
 }
 
