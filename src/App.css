@@ -179,8 +179,7 @@
     font-size: 12px !important;
   }
 
-   /* FORTH */
-
+  /* FORTH */
 
   .forth-project-text {
     font-size: 9px !important;
@@ -226,14 +225,13 @@
     margin-bottom: 10px;
     width: 35px;
   }
+
+  .second-footer {
+    font-size: 10px !important;
+  }
 }
 
 @media only screen and (max-width: 1115px) {
-  /* Second */
-  .second-footer {
-    font-size: 10px;
-  }
-
   /* FORTH */
   .forth-box {
     margin: 0px 5% 5% 5%;
@@ -254,6 +252,10 @@
     width: 350px;
     height: 180px;
     font-size: 7px !important;
+  }
+
+  .second-footer {
+    font-size: 9px !important;
   }
 }
 
@@ -278,7 +280,7 @@
 
   /* Second */
   .second-footer {
-    font-size: 7px;
+    font-size: 7px !important;
   }
 
   /* THIRD */
@@ -313,6 +315,10 @@
 
   .resume {
     font-size: smaller;
+  }
+
+  .second-footer {
+    font-size: 6px !important;
   }
 
   /* FORTH */
@@ -429,6 +435,10 @@
       transform: translate(0px, 30px);
     }
   }
+
+  .second-footer {
+    font-size: 5px !important;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -448,6 +458,11 @@
   .center {
     font-size: medium;
     margin-bottom: 10px !important;
+  }
+
+  /* Second */
+  .second-footer {
+    font-size: 4px !important;
   }
 }
 
@@ -540,6 +555,10 @@
 
   .title {
     font-size: 9px;
+  }
+
+  .second-footer {
+    font-size: 3px !important;
   }
 
   /* THIRD */

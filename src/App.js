@@ -25,6 +25,7 @@ import Go4profit from './assets/go4profit.png'
 import QLine from './assets/q-line.png'
 import Cycle from './assets/cycle.png'
 import Go4Pets from './assets/go4pets.png'
+import React from 'react';
 
 function App() {
   return (
@@ -61,17 +62,17 @@ function App() {
               <img src="https://img.icons8.com/small/16/000000/long-arrow-down.png" />
               <p> "Comp. Network Tech"</p>
             </p>
-            <p><a target="_blank" href='https://www.baruch.cuny.edu/'><h4>Baruch College - Bachelor</h4></a>
+            <p><a target="_blank" href='https://www.baruch.cuny.edu/'><h4>NYC City Tech - Bachelor</h4></a>
               <img src="https://img.icons8.com/small/16/000000/long-arrow-down.png" />
-              <p>"Info Risk Mngt\CyberSecurity"</p>
-            </p>
-            <p><a target="_blank" href='https://generalassemb.ly/'><h4>GA - Coding Bootcamp Grad</h4></a>
-              <img src="https://img.icons8.com/small/16/000000/long-arrow-down.png" />
-              <p> "Full-Stack Developer"</p>
+              <p>"Computer Systems"</p>
             </p>
             <p><a target="_blank" href='https://www.udemy.com/course/aws-certified-cloud-practitioner-training-course/'><h4>AWS</h4></a>
               <img src="https://img.icons8.com/small/16/000000/long-arrow-down.png" />
               <p> "Certified Cloud Practitioner"</p>
+            </p>
+            <p><a target="_blank" href='https://generalassemb.ly/'><h4>GA - Coding Bootcamp Grad</h4></a>
+              <img src="https://img.icons8.com/small/16/000000/long-arrow-down.png" />
+              <p> "Full-Stack Developer"</p>
             </p>
             <p><a target="_blank" href='https://www.coursera.org/professional-certificates/google-it-support'><h4>Google</h4></a>
               <img src="https://img.icons8.com/small/16/000000/long-arrow-down.png" />
